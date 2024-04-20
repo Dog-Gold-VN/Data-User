@@ -1,12 +1,8 @@
-document.addEventListener("DOMContentLoaded",() => {
-    const name = document.getElementById("name");
-    const phone = document.getElementById("phone");
-    const email = document.getElementById("email");
-    const submit = document.getElementById("submit");
-    submit.addEventListener("click",(e) => {
-        e.preventDefault();
-        console.log(name.value);
-        console.log(phone.value);
-        console.log(email.value);
-    });
-});
+function clickSubmit() {
+  var name = document.getElementById("name").value;
+  var phone = document.getElementById("phone").value;
+  var email = document.getElementById("email").value;
+  console.log("Ten " + name + " SDT " + phone + " Email " + email);
+  const sheet = GG_Sheet;
+  sheet.appendRow([name.value, phone.value, email.value]);
+}

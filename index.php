@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Collect user information</title>
+</head>
+
+<body>
+    <div class="container">
+        <form action="">
+            <input type="name" id="name" placeholder="Name">
+            <input type="phone" id="phone" placeholder="Phone">
+            <input type="email" id="email" placeholder="Email">
+            <button type="submit" id="submit"> Gửi </button>
+        </form>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
